@@ -57,7 +57,9 @@
         <RelativeLayout
             android:id="@+id/sr1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            >
 
           <ImageView
               android:id="@+id/dimg1"
@@ -84,8 +86,10 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true">
 
 
           <ImageView
@@ -133,8 +137,10 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true">
 
 
           <ImageView
@@ -165,8 +171,10 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true">
 
 
           <ImageView
@@ -218,8 +226,10 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clickable="true"
             >
 
           <ImageView
@@ -248,8 +258,10 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true">
 
           <ImageView
               android:id="@+id/dimg6"
@@ -318,6 +330,7 @@
           android:layout_weight="1">
 
         <RelativeLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
