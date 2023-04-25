@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">splash_screen</string>
     <string name="action_settings">Settings</string>
+    <string name="educational_ninstitutions">Educational \nInstitutions</string>
+    <string name="places_of_nworship">Places Of \nWorship</string>
+    <string name="bus_stop_taxi_stand_petrol_pump">Bus stop,Taxi Stand,Petrol pump</string>
+    <string name="guest_house_hotels_restaurants">Guest house/Hotels/Restaurants</string>
+    <string name="government_offices">Government Offices</string>
+    <string name="beat_officer_details">Beat Officer Details</string>
 
     <string-array name="des">
         <item>Click to select Designation</item>

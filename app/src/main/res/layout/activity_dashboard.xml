@@ -66,13 +66,13 @@
               app:srcCompat="@drawable/policeman_color_icon_police_officer_isolated_illustration_vector" />
 
           <TextView
-              android:id="@+id/textView9"
+              android:id="@+id/text1"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg1"
               android:layout_centerInParent="true"
-              android:text="Beat Officer Details"
+              android:text="@string/beat_officer_details"
               android:textStyle="bold" />
         </RelativeLayout>
       </androidx.cardview.widget.CardView>
@@ -88,6 +88,21 @@
             android:layout_height="match_parent">
 
 
+          <ImageView
+              android:id="@+id/dimg2"
+              android:layout_width="match_parent"
+              android:layout_height="97dp"
+              app:srcCompat="@drawable/government"/>
+
+          <TextView
+              android:id="@+id/text2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignWithParentIfMissing="false"
+              android:layout_below="@id/dimg2"
+              android:layout_centerInParent="true"
+              android:text="@string/government_offices"
+              android:textStyle="bold" />
         </RelativeLayout>
       </androidx.cardview.widget.CardView>
 
@@ -121,6 +136,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
+          <ImageView
+              android:id="@+id/dimg3"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              app:srcCompat="@drawable/college"
+               />
+
+          <TextView
+              android:id="@+id/text3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignWithParentIfMissing="false"
+              android:layout_below="@id/dimg3"
+              android:layout_centerInParent="true"
+              android:text="@string/educational_ninstitutions"
+              android:textAlignment="center"
+              android:textStyle="bold" />
+
         </RelativeLayout>
       </androidx.cardview.widget.CardView>
 
@@ -133,6 +167,24 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+
+          <ImageView
+              android:id="@+id/dimg4"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              app:srcCompat="@drawable/many_faiths" />
+
+          <TextView
+              android:id="@+id/text4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignWithParentIfMissing="false"
+              android:layout_below="@id/dimg4"
+              android:layout_centerInParent="true"
+              android:text="@string/places_of_nworship"
+              android:textAlignment="center"
+              android:textStyle="bold" />
 
 
         </RelativeLayout>
@@ -167,8 +219,25 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
+          <ImageView
+              android:id="@+id/dimg5"
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              app:srcCompat="@drawable/hotel" />
+
+          <TextView
+              android:id="@+id/textView6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignWithParentIfMissing="false"
+              android:layout_below="@id/dimg5"
+              android:layout_centerInParent="true"
+              android:text="@string/bus_stop_taxi_stand_petrol_pump"
+              android:textAlignment="center"
+              android:textStyle="bold" />
         </RelativeLayout>
       </androidx.cardview.widget.CardView>
 
@@ -182,7 +251,30 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+          <ImageView
+              android:id="@+id/dimg6"
+              android:layout_width="78dp"
+              android:layout_height="81dp"
+              app:srcCompat="@drawable/set_passenger_transport_vector_icons_train_metro_bus_trol_train_metro_tram_bus_trolleybus_taxi_set_passenger_transport_107608194" />
 
+          <ImageView
+              android:id="@+id/dimg6.1"
+              android:layout_width="69dp"
+              android:layout_height="81dp"
+              android:layout_alignParentEnd="true"
+              android:layout_marginEnd="0dp"
+              app:srcCompat="@drawable/pngtree_vector_fuel_station_icon_png_image_4015172" />
+
+          <TextView
+              android:id="@+id/text6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignWithParentIfMissing="false"
+              android:layout_below="@id/dimg6"
+              android:layout_centerInParent="true"
+              android:text="@string/bus_stop_taxi_stand_petrol_pump"
+              android:textAlignment="center"
+              android:textStyle="bold" />
         </RelativeLayout>
       </androidx.cardview.widget.CardView>
 
