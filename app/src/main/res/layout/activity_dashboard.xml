@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:textAlignment="center"
-    tools:context=".dashboard">
+    tools:context=".dashboard" >
 
 
   <androidx.constraintlayout.widget.ConstraintLayout
