@@ -1,62 +1,33 @@
 {
   "project_info": {
-    "project_number": "626474725180",
-    "project_id": "ebeat-51525",
-    "storage_bucket": "ebeat-51525.appspot.com"
+    "project_number": "952576667411",
+    "project_id": "ebeat12",
+    "storage_bucket": "ebeat12.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:626474725180:android:e78f0c6936d94691b4f839",
-        "android_client_info": {
-          "package_name": "com.company.ebet"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "626474725180-pul97rusavr3vv9fg918mlu8btts59ct.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBIsuHxrWA0to6zj3pdlkzm0o2LTZomRjs"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "626474725180-pul97rusavr3vv9fg918mlu8btts59ct.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:626474725180:android:919caef6087516a8b4f839",
+        "mobilesdk_app_id": "1:952576667411:android:fe0f58f66f16a9794274e6",
         "android_client_info": {
           "package_name": "com.example.splash_screen"
         }
       },
       "oauth_client": [
         {
-          "client_id": "626474725180-pul97rusavr3vv9fg918mlu8btts59ct.apps.googleusercontent.com",
+          "client_id": "952576667411-jaefbj6slj5bqptgssqgmpojtvd257ht.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBIsuHxrWA0to6zj3pdlkzm0o2LTZomRjs"
+          "current_key": "AIzaSyB9yVThJO1StRZRX5Uau2tbzNUS1qM-Y1w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "626474725180-pul97rusavr3vv9fg918mlu8btts59ct.apps.googleusercontent.com",
+              "client_id": "952576667411-jaefbj6slj5bqptgssqgmpojtvd257ht.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
