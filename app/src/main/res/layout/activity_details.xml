@@ -23,7 +23,7 @@
         tools:context=".login">
 
         <TextView
-            android:id="@+id/welcome1"
+            android:id="@+id/detail12"
             android:layout_width="239dp"
             android:layout_height="98dp"
             android:layout_gravity="center"
@@ -139,7 +139,7 @@
             android:layout_width="146dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/add" />
+            android:text="@string/add"/>
 
 
     </LinearLayout>
