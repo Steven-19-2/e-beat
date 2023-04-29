@@ -7,6 +7,10 @@
     <string name="guest_house_hotels_restaurants">Guest house/Hotels/Restaurants</string>
     <string name="government_offices">Government Offices</string>
     <string name="beat_officer_details">Beat Officer Details</string>
+    <string name="beat_area">Beat Area</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="name_and_phone_number_of_beat_officer_s">NAME AND PHONE NUMBER OF BEAT OFFICER\'S</string>
+    <string name="add">Add</string>
 
 
     <string-array name="des">
