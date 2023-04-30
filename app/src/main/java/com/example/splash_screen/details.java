@@ -80,7 +80,7 @@ public class details extends AppCompatActivity implements AdapterView.OnItemSele
                                 String p1_s = phone.getEditText().getText().toString();
                                 String a1_s = area.getEditText().getText().toString();
                                 Storingdata storingdatass = new Storingdata(sp1_s, user1_s, p1_s, a1_s);
-                                reference.child(sp1_s).setValue(storingdatass);
+                                reference.child(user1_s).setValue(storingdatass);
                                 Toast.makeText(getApplicationContext(), "Insterted Successfully", Toast.LENGTH_SHORT).show();
                             } else {
                                 area.setError("Please enter the beat area");

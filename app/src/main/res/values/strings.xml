@@ -11,6 +11,8 @@
     <string name="phone_no">Phone No.</string>
     <string name="name_and_phone_number_of_beat_officer_s">NAME AND PHONE NUMBER OF BEAT OFFICER\'S</string>
     <string name="add">Add</string>
+    <string name="location">Location</string>
+    <string name="officer_incharge">Officer Incharge</string>
 
 
     <string-array name="des">

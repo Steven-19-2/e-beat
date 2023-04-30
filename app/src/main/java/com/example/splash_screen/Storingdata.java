@@ -2,47 +2,47 @@ package com.example.splash_screen;
 
 public class Storingdata {
 
-    String designation,name,phone,beatarea;
+    String a,b,c,d;
 
     public Storingdata() {
     }
 
-    public Storingdata(String designation, String name, String phone, String beatarea) {
-        this.designation = designation;
-        this.name = name;
-        this.phone = phone;
-        this.beatarea = beatarea;
+    public Storingdata(String a, String b, String c, String d) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
     }
 
     public String getDesignation() {
-        return designation;
+        return a;
     }
 
     public void setDesignation(String designation) {
-        this.designation = designation;
+        this.a = designation;
     }
 
     public String getName() {
-        return name;
+        return b;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.b = name;
     }
 
     public String getPhone() {
-        return phone;
+        return c;
     }
 
     public void setPhone(String phone) {
-        this.phone = phone;
+        this.c = phone;
     }
 
     public String getBeatarea() {
-        return beatarea;
+        return d;
     }
 
     public void setBeatarea(String beatarea) {
-        this.beatarea = beatarea;
+        this.d = beatarea;
     }
 }

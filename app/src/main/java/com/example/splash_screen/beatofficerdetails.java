@@ -32,3 +32,4 @@ public class beatofficerdetails extends AppCompatActivity {
 
     }
 }
+

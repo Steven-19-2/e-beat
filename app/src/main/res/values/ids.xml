@@ -5,4 +5,7 @@
     <item name="dimg6" type="id" />
     <item name="text6" type="id" />
     <item name="area" type="id" />
+    <item name="officename" type="id" />
+    <item name="location" type="id" />
+    <item name="officerincharge" type="id" />
 </resources>
