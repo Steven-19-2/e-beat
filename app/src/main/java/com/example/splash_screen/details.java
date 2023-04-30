@@ -17,12 +17,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class details extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
 
     Button add;
     TextInputLayout user,phone,area;
     String text;
+    FirebaseDatabase fb;
+    DatabaseReference reference;
 
 
     @Override
@@ -51,47 +55,49 @@ public class details extends AppCompatActivity implements AdapterView.OnItemSele
                 String sp1 = spinner.getSelectedItem().toString();//value stored in sp1
 
 
-Log.d("CREATION", sp1);
+                Log.d("CREATION", sp1);
 
                 View selectedView = spinner.getSelectedView();
+                TextView selectedTextView = null;
                 if (selectedView != null && selectedView instanceof TextView) {
-                    TextView selectedTextView = (TextView) selectedView;
+                    selectedTextView = (TextView) selectedView;
+//                    selectedTextView.setError("Please select a value");
+
+                    if (!user1.isEmpty()) {
+                        user.setError(null);
+                        user.setErrorEnabled(false);
+                        if (!p1.isEmpty()) {
+                            phone.setError(null);
+                            phone.setErrorEnabled(false);
+                            if (!a1.isEmpty()) {
+                                area.setError(null);
+                                area.setErrorEnabled(false);
+
+                                fb = FirebaseDatabase.getInstance();
+                                reference = fb.getReference("policedetails");
+                                String sp1_s = spinner.getSelectedItem().toString();
+                                String user1_s = user.getEditText().getText().toString();
+                                String p1_s = phone.getEditText().getText().toString();
+                                String a1_s = area.getEditText().getText().toString();
+                                Storingdata storingdatass = new Storingdata(sp1_s, user1_s, p1_s, a1_s);
+                                reference.child(sp1_s).setValue(storingdatass);
+                                Toast.makeText(getApplicationContext(), "Insterted Successfully", Toast.LENGTH_SHORT).show();
+                            } else {
+                                area.setError("Please enter the beat area");
+                            }
+                        } else {
+                            phone.setError("Please enter the beat area");
+                        }
+                    } else {
+                        user.setError("Please enter the username");
+                    }
+                } else {
                     selectedTextView.setError("Please select a value");
                 }
-                if(!user1.isEmpty())
-                {
-                    user.setError(null);
-                    user.setErrorEnabled(false);
-                }
-                else
-                {
-                    user.setError("Please enter the username");
-                }
-
-                if(!a1.isEmpty())
-                {
-                    area.setError(null);
-                    area.setErrorEnabled(false);
-                }
-                else {
-                    area.setError("Please enter the beat area");
-                }
-                if(!p1.isEmpty())
-                {
-                    phone.setError(null);
-                    phone.setErrorEnabled(false);
-                }
-                else
-                {
-                    phone.setError("Please enter the beat area");
-                }
-
-
-
-
             }
         });
     }
+
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long l) {
