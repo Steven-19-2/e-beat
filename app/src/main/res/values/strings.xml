@@ -13,6 +13,12 @@
     <string name="add">Add</string>
     <string name="location">Location</string>
     <string name="officer_incharge">Officer Incharge</string>
+    <string name="enter">Enter</string>
+    <string name="particulars_of_schools_colleges_and_hostels">Particulars of Schools, Colleges and Hostels</string>
+    <string name="name_of_the_institution">Name of the Institution</string>
+    <string name="name_of_head_master_principal">Name of Head Master/Principal</string>
+    <string name="phone_number_of_head_master_principal">Phone Number of Head Master/Principal</string>
+    <string name="name_of_office">Name of Office</string>
 
 
     <string-array name="des">
@@ -21,5 +27,19 @@
         <item>POLICE INSPECTOR</item>
         <item>SUB-DIVISIONAL POLICE OFFICER</item>
         <item>SUPERINTENDENT OF POLICE</item>
+    </string-array>
+
+    <string-array name="inst">
+        <item>Click to select type of institution</item>
+        <item>SCHOOL</item>
+        <item>COLLEGE</item>
+        <item>HOSTEL</item>
+    </string-array>
+
+    <string-array name="choosing">
+        <item>Click to select type</item>
+        <item>Boys</item>
+        <item>Girls</item>
+        <item>Both</item>
     </string-array>
 </resources>

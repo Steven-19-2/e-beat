@@ -13,9 +13,9 @@
     tools:context=".details">
 
     <LinearLayout
-        android:id="@+id/detaillayout1"
+        android:id="@+id/detaillayout12"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/design_default_color_on_primary"
         android:orientation="vertical"
         android:padding="20dp"
@@ -24,7 +24,7 @@
         tools:context=".login">
 
         <TextView
-            android:id="@+id/detail12"
+            android:id="@+id/officerdetail"
             android:layout_width="239dp"
             android:layout_height="98dp"
             android:layout_gravity="center"
@@ -38,7 +38,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.028" />
+            app:layout_constraintVertical_bias="0.028"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:id="@+id/textView"
@@ -61,16 +62,19 @@
                 android:id="@+id/officename"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name of Office"
+                android:hint="@string/name_of_office"
                 android:textColor="@color/textcolor" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="328dp"
-            android:layout_height="7dp"
+            android:layout_height="4dp"
             android:ems="10"
-            android:inputType="text" />
+            android:hint="@string/add"
+            android:inputType="text"
+            tools:ignore="LabelFor,DuplicateSpeakableTextCheck"
+            android:autofillHints="" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@id/location"
