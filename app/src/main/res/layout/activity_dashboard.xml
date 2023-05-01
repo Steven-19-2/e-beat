@@ -322,8 +322,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr7"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg7"
@@ -333,13 +336,13 @@
               />
 
           <TextView
-              android:id="@+id/textView7"
+              android:id="@+id/text7"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg7"
               android:layout_centerInParent="true"
-              android:text="Gadas and movable Carts"
+              android:text="@string/gadas_and_movable_carts"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -354,9 +357,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
-
+            android:id="@+id/sr8"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg8"
@@ -379,7 +384,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg8"
               android:layout_centerInParent="true"
-              android:text="Closed houses in the Beat"
+              android:text="@string/closed_houses_in_the_beat"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -413,8 +418,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr9"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg9"
@@ -429,7 +437,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg9"
               android:layout_centerInParent="true"
-              android:text="House, panchayat, school, bank visit"
+              android:text="@string/house_panchayat_school_bank_visit"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -443,8 +451,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr10"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg10"
@@ -459,7 +470,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg10"
               android:layout_centerInParent="true"
-              android:text="Village panchayat, Municipality, List of spa, Hair cutting saloon"
+              android:text="@string/village_panchayat_municipality_list_of_spa_hair_cutting_saloon"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -493,8 +504,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr11"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg11"
@@ -517,7 +531,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg11"
               android:layout_centerInParent="true"
-              android:text="Location of CCTV Cameras"
+              android:text="@string/location_of_cctv_cameras"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -531,8 +545,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr12"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg12"
@@ -547,7 +564,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg12"
               android:layout_centerInParent="true"
-              android:text="Scrap yard in the Beat, Date of checking"
+              android:text="@string/scrap_yard_in_the_beat_date_of_checking"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -583,8 +600,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr13"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg13"
@@ -607,7 +627,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg13"
               android:layout_centerInParent="true"
-              android:text="Important Restaurants"
+              android:text="@string/important_restaurants"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -621,8 +641,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr14"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg14"
@@ -637,7 +660,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg14"
               android:layout_centerInParent="true"
-              android:text="List of Dancing schools"
+              android:text="@string/list_of_dancing_schools"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -671,8 +694,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr15"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg15"
@@ -695,7 +721,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg15"
               android:layout_centerInParent="true"
-              android:text="Tourist Guides"
+              android:text="@string/tourist_guides"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -709,8 +735,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr16"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg16"
@@ -733,7 +762,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg16"
               android:layout_centerInParent="true"
-              android:text="List of Criminals"
+              android:text="@string/list_of_criminals"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -767,8 +796,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr17"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg17"
@@ -783,7 +815,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg17"
               android:layout_centerInParent="true"
-              android:text="List of FIRs Registered"
+              android:text="@string/list_of_firs_registered"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -797,8 +829,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr18"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg18"
@@ -821,7 +856,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg18"
               android:layout_centerInParent="true"
-              android:text="Shop under exercise law, explosives"
+              android:text="@string/shop_under_exercise_law_explosives"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -855,8 +890,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr19"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg19"
@@ -871,7 +909,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg19"
               android:layout_centerInParent="true"
-              android:text="List of Bad characters"
+              android:text="@string/list_of_bad_characters"
               android:textAlignment="center"
               android:textStyle="bold" />
 
@@ -885,8 +923,11 @@
           android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/sr20"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
 
           <ImageView
               android:id="@+id/dimg20"
@@ -901,7 +942,7 @@
               android:layout_alignWithParentIfMissing="false"
               android:layout_below="@id/dimg20"
               android:layout_centerInParent="true"
-              android:text="People useful for negotiation - kidnapping/Hijacking"
+              android:text="@string/people_useful_for_negotiation_kidnapping_hijacking"
               android:textAlignment="center"
               android:textStyle="bold" />
 

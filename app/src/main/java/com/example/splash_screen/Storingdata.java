@@ -2,11 +2,52 @@ package com.example.splash_screen;
 
 public class Storingdata {
 
+    public void assign(String crno_s, String acno_s, String place_s, String disposal_s)
+    {
+        this.crno_s = crno_s;
+        this.acno_s = acno_s;
+        this.place_s = place_s;
+        this.disposal_s = disposal_s;
+    }
+
+    public String getCrno_s() {
+        return crno_s;
+    }
+
+    public void setCrno_s(String crno_s) {
+        this.crno_s = crno_s;
+    }
+
+    public String getAcno_s() {
+        return acno_s;
+    }
+
+    public void setAcno_s(String acno_s) {
+        this.acno_s = acno_s;
+    }
+
+    public String getPlace_s() {
+        return place_s;
+    }
+
+    public void setPlace_s(String place_s) {
+        this.place_s = place_s;
+    }
+
+    public String getDisposal_s() {
+        return disposal_s;
+    }
+
+    public void setDisposal_s(String disposal_s) {
+        this.disposal_s = disposal_s;
+    }
+
     String designation,name,phone,beatarea;
     String sp1s;
     String name1s;
     String loc1s;
 
+    String crno_s, acno_s, place_s, disposal_s;
     public String getSp1s() {
         return sp1s;
     }
@@ -68,8 +109,7 @@ public class Storingdata {
     String p1s;
     String sp2s;
 
-    public Storingdata() {
-    }
+
 
     public Storingdata(String designation, String name, String phone, String beatarea) {
         this.designation = designation;
@@ -112,7 +152,12 @@ public class Storingdata {
         this.beatarea = beatarea;
     }
 
+    public Storingdata() {
 
+
+
+
+    }
 
 
 }

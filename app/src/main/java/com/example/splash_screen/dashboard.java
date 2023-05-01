@@ -1,6 +1,8 @@
 package com.example.splash_screen;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import  android.content.Intent;
@@ -82,6 +84,19 @@ public class dashboard extends AppCompatActivity {
                                   @Override
                                   public void onClick(View v) {
                                       Intent numbersIntent = new Intent(dashboard.this, bustaxipetrol.class);
+                                      startActivity(numbersIntent);
+                                  }
+
+                              }
+        );
+
+
+
+        RelativeLayout r17 = (RelativeLayout) findViewById(R.id.sr17);
+        r17.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent numbersIntent = new Intent(dashboard.this, firlist.class);
                                       startActivity(numbersIntent);
                                   }
 

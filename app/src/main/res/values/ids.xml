@@ -8,4 +8,5 @@
     <item name="officename" type="id" />
     <item name="location" type="id" />
     <item name="officerincharge" type="id" />
+    <item name="crimeno" type="id" />
 </resources>
