@@ -153,4 +153,9 @@
     <string name="login">Login</string>
     <string name="welcome_to_goa_police_e_beat_app1">Welcome to Goa Police E - Beat App</string>
     <string name="click_here_to_register">Click here to register</string>
+    <string name="address">address</string>
+    <string name="address1">Address</string>
+    <string name="fir_details">FIR Details</string>
+    <string name="name_of_the_criminal">Name of the criminal</string>
+    <string name="list_of_criminals_having_two_or_more_involvement_of_crime">List of Criminals having two or more involvement of Crime</string>
 </resources>

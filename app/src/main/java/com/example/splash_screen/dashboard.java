@@ -90,6 +90,17 @@ public class dashboard extends AppCompatActivity {
                               }
         );
 
+        RelativeLayout r16 = (RelativeLayout) findViewById(R.id.sr16);
+        r16.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent numbersIntent = new Intent(dashboard.this, crime2ormore.class);
+                                      startActivity(numbersIntent);
+                                  }
+
+                              }
+        );
+
 
 
         RelativeLayout r17 = (RelativeLayout) findViewById(R.id.sr17);

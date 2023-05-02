@@ -10,6 +10,52 @@ public class Storingdata {
         this.disposal_s = disposal_s;
     }
 
+    String criminalname_s;
+    String address_s;
+    String phone_s;
+
+    public void crime2or(String criminalname_s, String address_s, String phone_s, String firdetails_s)
+    {
+        this.crno_s = criminalname_s;
+        this.acno_s = address_s;
+        this.place_s = phone_s;
+        this.disposal_s = firdetails_s;
+    }
+
+    public String getCriminalname_s() {
+        return criminalname_s;
+    }
+
+    public void setCriminalname_s(String criminalname_s) {
+        this.criminalname_s = criminalname_s;
+    }
+
+    public String getAddress_s() {
+        return address_s;
+    }
+
+    public void setAddress_s(String address_s) {
+        this.address_s = address_s;
+    }
+
+    public String getPhone_s() {
+        return phone_s;
+    }
+
+    public void setPhone_s(String phone_s) {
+        this.phone_s = phone_s;
+    }
+
+    public String getFirdetails_s() {
+        return firdetails_s;
+    }
+
+    public void setFirdetails_s(String firdetails_s) {
+        this.firdetails_s = firdetails_s;
+    }
+
+    String firdetails_s;
+
     public String getCrno_s() {
         return crno_s;
     }
