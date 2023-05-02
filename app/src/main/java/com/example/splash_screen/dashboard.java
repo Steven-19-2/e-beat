@@ -90,6 +90,28 @@ public class dashboard extends AppCompatActivity {
                               }
         );
 
+        RelativeLayout r14 = (RelativeLayout) findViewById(R.id.sr14);
+        r14.setOnClickListener(new View.OnClickListener() {
+                                   @Override
+                                   public void onClick(View v) {
+                                       Intent numbersIntent = new Intent(dashboard.this, dancingschools.class);
+                                       startActivity(numbersIntent);
+                                   }
+
+                               }
+        );
+
+        RelativeLayout r15 = (RelativeLayout) findViewById(R.id.sr15);
+        r15.setOnClickListener(new View.OnClickListener() {
+                                   @Override
+                                   public void onClick(View v) {
+                                       Intent numbersIntent = new Intent(dashboard.this, touristguides.class);
+                                       startActivity(numbersIntent);
+                                   }
+
+                               }
+        );
+
         RelativeLayout r16 = (RelativeLayout) findViewById(R.id.sr16);
         r16.setOnClickListener(new View.OnClickListener() {
                                   @Override

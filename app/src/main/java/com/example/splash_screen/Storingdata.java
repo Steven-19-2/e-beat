@@ -22,6 +22,88 @@ public class Storingdata {
         this.disposal_s = firdetails_s;
     }
 
+    String ename_s;
+
+    public String getEname_s() {
+        return ename_s;
+    }
+
+    public void setEname_s(String ename_s) {
+        this.ename_s = ename_s;
+    }
+
+    public String getEaddress_s() {
+        return eaddress_s;
+    }
+
+    public void setEaddress_s(String eaddress_s) {
+        this.eaddress_s = eaddress_s;
+    }
+
+    public String getOname_s() {
+        return oname_s;
+    }
+
+    public void setOname_s(String oname_s) {
+        this.oname_s = oname_s;
+    }
+
+    public String getOaddress_s() {
+        return oaddress_s;
+    }
+
+    public void setOaddress_s(String oaddress_s) {
+        this.oaddress_s = oaddress_s;
+    }
+
+    String eaddress_s;
+    String oname_s;
+    String oaddress_s;
+    public void dancing(String ename_s, String eaddress_s, String oname_s,  String phone_s, String oaddress_s)
+    {
+        this.ename_s = ename_s;
+        this.eaddress_s = eaddress_s;
+        this.oname_s = oname_s;
+        this.phone_s = phone_s;
+        this.oaddress_s = oaddress_s;
+    }
+
+    String name_s;
+
+    public String getName_s() {
+        return name_s;
+    }
+
+    public void setName_s(String name_s) {
+        this.name_s = name_s;
+    }
+
+    public String getLocal_s() {
+        return local_s;
+    }
+
+    public void setLocal_s(String local_s) {
+        this.local_s = local_s;
+    }
+
+    public String getNativea_s() {
+        return nativea_s;
+    }
+
+    public void setNativea_s(String nativea_s) {
+        this.nativea_s = nativea_s;
+    }
+
+    String local_s;
+    String nativea_s;
+    public void tourist(String name_s, String phone_s, String local_s, String nativea_s)
+    {
+        this.name_s = name_s;
+        this.local_s = local_s;
+        this.phone_s = phone_s;
+        this.nativea_s = nativea_s;
+    }
+
     public String getCriminalname_s() {
         return criminalname_s;
     }
