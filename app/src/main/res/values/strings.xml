@@ -148,4 +148,8 @@
     <string name="Place" />
     <string name="place">Place</string>
     <string name="disposal">Disposal</string>
+    <string name="welcome_to_goa_police_e_beat_app">Welcome to Goa Police E - Beat App</string>
+    <string name="please_enter_the_details_to_login">Please enter the details to login</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_goa_police_e_beat_app1">Welcome to Goa Police E - Beat App</string>
 </resources>

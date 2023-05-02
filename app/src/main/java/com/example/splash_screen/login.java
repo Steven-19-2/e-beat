@@ -2,11 +2,15 @@ package com.example.splash_screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -23,6 +27,18 @@ public class login extends AppCompatActivity implements AdapterView.OnItemSelect
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
+
+
+        Button b1 = this.findViewById(R.id.registerbutton);
+        b1.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent numbersIntent = new Intent(login.this, dashboard.class);
+                                      startActivity(numbersIntent);
+                                  }
+
+                              }
+        );
     }
 
     @Override

@@ -44,7 +44,7 @@ public class Splash_screen extends AppCompatActivity {
 
                 if(first.equals("yes"))
                 {
-                    Intent intent1 = new Intent(Splash_screen.this, dashboard.class);//login.class);
+                    Intent intent1 = new Intent(Splash_screen.this, login.class);
                     startActivity(intent1);
                 }
 
