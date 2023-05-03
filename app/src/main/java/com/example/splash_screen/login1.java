@@ -31,22 +31,34 @@ public class login1 extends AppCompatActivity {
         user = findViewById(R.id.username1text);
         password = findViewById(R.id.passwordtext);
 
+
+
         Button login = this.findViewById(R.id.loginbutton);
         login.setOnClickListener(new View.OnClickListener() {
-            String user_ = user.getEditText().getText().toString();
-            String password_ = password.getEditText().getText().toString();
-
-            
 
 
 
-                                     @Override
-                                     public void onClick(View v) {
-                                         Intent numbersIntent = new Intent(login1.this, dashboard.class);
-                                         startActivity(numbersIntent);
-                                     }
+            @Override
+            public void onClick(View v) {
+                Intent numbersIntent = new Intent(login1.this, dashboard.class);
+                startActivity(numbersIntent);
 
-                                 }
+                String user_ = user.getEditText().getText().toString();
+                String password_ = password.getEditText().getText().toString();
+
+                if(!user_.isEmpty()){
+                    user.setError(null);
+                    user.setErrorEnabled(false);
+                    if(!password_.isEmpty()){
+                        password.setError(null);
+                        password.setErrorEnabled(false);
+                    }
+                }
+
+
+            }
+
+        }
         );
 
 
