@@ -25,5 +25,16 @@ public class dancingschools extends AppCompatActivity {
 
                                    }
         );
+
+        Button b2 = (Button) findViewById(R.id.button2);
+        b2.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View v) {
+                                           Intent numbersIntent = new Intent(dancingschools.this,dancingschoolsview.class);
+                                           startActivity(numbersIntent);
+                                       }
+
+                                   }
+        );
     }
 }
