@@ -2,12 +2,47 @@ package com.example.splash_screen;
 
 public class Storingdata {
 
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    String username;
+
+    public Storingdata(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    String password;
+
+
     public void assign(String crno_s, String acno_s, String place_s, String disposal_s)
     {
         this.crno_s = crno_s;
         this.acno_s = acno_s;
         this.place_s = place_s;
         this.disposal_s = disposal_s;
+    }
+
+
+    public void loginregister(String username, String password, String designation, String phone)
+    {
+        this.username = username;
+        this.password = password;
+        this.designation = designation;
+        this.phone = phone;
     }
 
     String criminalname_s;
