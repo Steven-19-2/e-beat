@@ -36,6 +36,41 @@ public class Storingdata {
         this.disposal_s = disposal_s;
     }
 
+    public void gov(String nameofoffice, String location, String phone, String incharge)
+    {
+        this.nameofoffice = nameofoffice;
+        this.location = location;
+        this.phone = phone;
+        this.incharge = incharge;
+    }
+
+    String nameofoffice; String location; String phone;
+
+    public String getNameofoffice() {
+        return nameofoffice;
+    }
+
+    public void setNameofoffice(String nameofoffice) {
+        this.nameofoffice = nameofoffice;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getIncharge() {
+        return incharge;
+    }
+
+    public void setIncharge(String incharge) {
+        this.incharge = incharge;
+    }
+
+    String incharge;
 
     public void loginregister(String username, String password, String designation, String phone)
     {
@@ -102,6 +137,7 @@ public class Storingdata {
         this.phone_s = phone_s;
         this.oaddress_s = oaddress_s;
     }
+
 
     String name_s;
 
@@ -205,7 +241,7 @@ public class Storingdata {
         this.disposal_s = disposal_s;
     }
 
-    String designation,name,phone,beatarea;
+    String designation,name,beatarea;
     String sp1s;
     String name1s;
     String loc1s;

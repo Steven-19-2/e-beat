@@ -29,7 +29,7 @@
             android:layout_height="98dp"
             android:layout_gravity="center"
             android:fontFamily="sans-serif"
-            android:text="@string/name_and_phone_number_of_beat_officer_s"
+            android:text="@string/particular_of_government_offices_and_location"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/black"

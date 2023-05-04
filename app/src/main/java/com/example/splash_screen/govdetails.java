@@ -71,7 +71,8 @@ public class govdetails extends AppCompatActivity {
                                 String loc_s = loc.getEditText().getText().toString();
                                 String phone_s = phone.getEditText().getText().toString();
                                 String incharge_s = incharge.getEditText().getText().toString();
-                                Storingdata storingdatass = new Storingdata(ofname_s, loc_s, phone_s, incharge_s);
+                                Storingdata storingdatass = new Storingdata();
+                                storingdatass.gov(ofname_s, loc_s, phone_s, incharge_s);
                                 reference.child(ofname_s).setValue(storingdatass);
                                 Toast.makeText(getApplicationContext(), "Insterted Successfully", Toast.LENGTH_SHORT).show();
                             } else {

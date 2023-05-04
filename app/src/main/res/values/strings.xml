@@ -79,4 +79,5 @@
     <string name="name_of_the_tourist_guide">Name of the Tourist Guide</string>
     <string name="local_address">Local Address</string>
     <string name="native_address">Native Address</string>
+    <string name="particular_of_government_offices_and_location">Particulars of Government offices and location</string>
 </resources>

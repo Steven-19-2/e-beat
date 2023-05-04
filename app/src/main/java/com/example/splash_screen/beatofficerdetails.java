@@ -16,7 +16,8 @@ public class beatofficerdetails extends AppCompatActivity {
         setContentView(R.layout.activity_beatofficerdetails);
 
         Button button1 = (Button) findViewById(R.id.button);
-        button1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener()
+                                   {
                                   @Override
                                   public void onClick(View v) {
                                       Intent numbersIntent = new Intent(beatofficerdetails.this,details.class);
@@ -25,11 +26,6 @@ public class beatofficerdetails extends AppCompatActivity {
 
                               }
         );
-
-
-
-
-
     }
 }
 

@@ -34,6 +34,9 @@
             android:name=".crime2ormore"
             android:exported="false" />
         <activity
+            android:name=".Retrieve"
+            android:exported="false" />
+        <activity
             android:name=".frilistdetails"
             android:exported="false" />
         <activity

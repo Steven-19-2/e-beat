@@ -60,7 +60,7 @@ public class Splash_screen extends AppCompatActivity {
                     startActivity(intent);
                 }
 
-                  finish();//so that we dont't go back to splashscreen when pressed back
+                  finish();//so that we don't go back to splashscreen when pressed back
             }
         },timer);
 
