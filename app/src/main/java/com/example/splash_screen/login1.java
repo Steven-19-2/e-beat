@@ -3,6 +3,7 @@ package com.example.splash_screen;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,7 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DataSnapshot;
@@ -63,7 +65,9 @@ public class login1 extends AppCompatActivity {
                         final String password_data = password.getEditText().getText().toString();
 
                         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+//                        ActivityReadDataBinding binding;
                         DatabaseReference databaseReference = firebaseDatabase.getReference("logindata");
+
 
                         Query check_user = databaseReference.orderByChild("username").equalTo(user_data);
                         check_user.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -80,9 +84,16 @@ public class login1 extends AppCompatActivity {
 
                                         String descheck = snapshot.child("designation").getValue(String.class);
                                         Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(getApplicationContext(), dashboard.class);
-                                        startActivity(intent);
-                                        finish();
+//                                        if(descheck.equals("BEAT OFFICER")){
+//                                            Intent intent = new Intent(getApplicationContext(), dashboard1.class);
+//                                            startActivity(intent);
+//                                            finish();
+//                                        }
+//                                        else {
+                                            Intent intent = new Intent(getApplicationContext(), dashboard.class);
+                                            startActivity(intent);
+                                            finish();
+//                                        }
                                     }else {
                                         password.setError("Wrong Password");
                                     }
